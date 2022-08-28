@@ -36,7 +36,7 @@ a {
   height: 40px;
   border-radius: 100%;
   background-color: var(--maincolor);
-  display: flex;
+  display: flex-end;
   align-items: center;
   justify-content: center;
 }
@@ -60,7 +60,7 @@ a {
 
 .buttondiv {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .profilepic {

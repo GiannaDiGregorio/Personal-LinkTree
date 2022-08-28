@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     title: "Instagram",
     link: "https://www.instagram.com/gianna.digregorio",
@@ -20,3 +20,5 @@ export default [
     link: "https://www.thelevelup.com/c/TW-JGUQ1VAFN5",
   },
 ];
+
+export default data;
