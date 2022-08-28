@@ -1,0 +1,115 @@
+:root {
+  --background: #ffdde2;
+  --maincolor: #ff8cc6;
+  --titlecolor: #6f5e76;
+  --darkbackground: #462d40;
+  --darkmaincolor: rgb(165, 107, 161);
+  --darktitlecolor: rgb(178, 178, 178);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.bodydiv,
+.bodydivdark {
+  background-color: var(--background);
+  height: 100vh;
+}
+
+.bodydivdark {
+  background-color: var(--darkbackground);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn,
+.btndark {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: var(--maincolor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btndark {
+  background-color: var(--darktitlecolor);
+}
+
+.container,
+.containerdark {
+  background-color: var(--background);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.containerdark {
+  background-color: var(--darkbackground);
+}
+
+.buttondiv {
+  display: flex;
+  justify-content: end;
+}
+
+.profilepic {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  color: var(--titlecolor);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+p {
+  color: var(--titlecolor);
+  font-size: 15px;
+  max-width: 315px;
+  margin: auto;
+  margin-bottom: 30px;
+  line-height: 14px;
+}
+
+.dark {
+  color: var(--darktitlecolor);
+}
+
+.boxdiv,
+.boxdivdark {
+  margin: 10px 10px;
+  padding: 5px;
+  border: 3px solid var(--maincolor);
+  border-radius: 5px;
+  color: var(--maincolor);
+  font-size: 12px;
+}
+
+.boxdivdark {
+  background-color: var(--darkbackground);
+  border: 3px solid var(--darkmaincolor);
+}
+
+.boxdiv:hover {
+  background-color: var(--maincolor);
+  color: var(--titlecolor);
+}
+
+.boxdivdark:hover {
+  background-color: var(--darkmaincolor);
+  color: var(--darktitlecolor);
+}
