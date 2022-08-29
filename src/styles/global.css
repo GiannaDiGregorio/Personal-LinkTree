@@ -1,10 +1,10 @@
 :root {
   --background: #ffdde2;
-  --maincolor: #ff8cc6;
+  --maincolor: #d279b9;
   --titlecolor: #6f5e76;
   --darkbackground: #462d40;
-  --darkmaincolor: rgb(165, 107, 161);
-  --darktitlecolor: rgb(178, 178, 178);
+  --darkmaincolor: #a56ba1;
+  --darktitlecolor: #b2b2b2;
 }
 
 * {
@@ -98,7 +98,7 @@ p {
 }
 
 .darktext {
-  color: var(--darkmaincolor);
+  color: var(--darktitlecolor);
 }
 
 .boxdiv,
