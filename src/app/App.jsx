@@ -27,8 +27,7 @@ function App() {
           <img className="profilepic" src={profilepic} alt="Gianna" />
           <h1 className={theme ? "dark" : null}>Gianna DiGregorio</h1>
           <p className={theme ? "dark" : null}>
-            Here are some links to my socials! Download the Saxbys app using the
-            last link to earn $3 Saxbys credit!
+            Hi follow my socials with the links below!
           </p>
           {boxes}
         </div>
