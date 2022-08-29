@@ -11,13 +11,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bodydiv,
 .bodydivdark {
   background-color: var(--background);
   height: 100vh;
+  transition: ease-in-out 0.3s;
 }
 
 .bodydivdark {
@@ -36,13 +37,16 @@ a {
   height: 40px;
   border-radius: 100%;
   background-color: var(--maincolor);
-  display: flex-end;
-  align-items: center;
-  justify-content: center;
+  font-size: 20px;
+
+  padding-top: 5px;
+  color: black;
+  transition: ease-in-out 0.3s;
 }
 
 .btndark {
   background-color: var(--darktitlecolor);
+  transition: ease-in-out 0.3s;
 }
 
 .container,
@@ -52,6 +56,7 @@ a {
   margin: auto;
   text-align: center;
   padding: 20px;
+  transition: ease-in-out 0.3s;
 }
 
 .containerdark {
@@ -61,9 +66,12 @@ a {
 .buttondiv {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  transition: ease-in-out 0.3s;
 }
 
 .profilepic {
+  object-fit: cover;
   border-radius: 100%;
   width: 100px;
   height: 100px;
@@ -89,11 +97,15 @@ p {
   color: var(--darktitlecolor);
 }
 
+.darktext {
+  color: var(--darkmaincolor);
+}
+
 .boxdiv,
 .boxdivdark {
   margin: 10px 10px;
   padding: 5px;
-  border: 3px solid var(--maincolor);
+  border: 2px solid var(--maincolor);
   border-radius: 5px;
   color: var(--maincolor);
   font-size: 12px;
@@ -101,7 +113,7 @@ p {
 
 .boxdivdark {
   background-color: var(--darkbackground);
-  border: 3px solid var(--darkmaincolor);
+  border: 2px solid var(--darkmaincolor);
 }
 
 .boxdiv:hover {

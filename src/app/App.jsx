@@ -26,7 +26,7 @@ function App() {
           </div>
           <img className="profilepic" src={profilepic} alt="Gianna" />
           <h1 className={theme ? "dark" : null}>Gianna DiGregorio</h1>
-          <p className={theme ? "dark" : null}>
+          <p className={theme ? "darktext" : null}>
             Hi follow my socials with the links below!
           </p>
           {boxes}
