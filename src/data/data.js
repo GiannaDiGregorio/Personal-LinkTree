@@ -16,6 +16,10 @@ const data = [
     link: "https://www.tiktok.com/@gianna.angel",
   },
   {
+    title: "VSCO",
+    link: "https://vsco.co/gianna-digregorio",
+  },
+  {
     title: "Saxbys App",
     link: "https://www.thelevelup.com/c/TW-JGUQ1VAFN5",
   },
