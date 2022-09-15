@@ -1,3 +1,5 @@
+// Import light theme colors
+// Import dark theme colors
 import Box from "../components/Box";
 import profilepic from "../images/profile.jpg";
 import data from "../data/data";
@@ -6,6 +8,8 @@ import { FaSun, FaMoon } from "react-icons/fa";
 
 function App() {
   const [theme, setTheme] = useState(false);
+
+  //Change theme classes by module
 
   function changetheme() {
     setTheme(!theme);
