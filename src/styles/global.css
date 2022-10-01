@@ -1,10 +1,10 @@
 :root {
-  --background: #ffdde2;
-  --maincolor: #d279b9;
-  --titlecolor: #6f5e76;
-  --darkbackground: #462d40;
-  --darkmaincolor: #a56ba1;
-  --darktitlecolor: #b2b2b2;
+  --background: #e8c7a7;
+  --maincolor: #d16d02;
+  --titlecolor: #522b01;
+  --darkbackground: #371d00;
+  --darkmaincolor: #d16d02;
+  --darktitlecolor: #e8c7a7;
 }
 
 * {
@@ -75,6 +75,7 @@ a {
   border-radius: 100%;
   width: 100px;
   height: 100px;
+  border: black 1px solid;
 }
 
 h1 {
