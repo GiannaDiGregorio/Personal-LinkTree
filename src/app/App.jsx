@@ -32,7 +32,7 @@ function App() {
           <h1 className={theme ? "dark" : null}>Gianna DiGregorio</h1>
           <p className={theme ? "darktext" : null}>
             Follow my socials with the links below! The Saxbys link will give
-            you $3 off of your next order!
+            you $3 off of your first order if you download the app!
           </p>
           {boxes}
         </div>
