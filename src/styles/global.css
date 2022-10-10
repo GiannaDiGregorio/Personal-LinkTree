@@ -42,6 +42,7 @@ a {
   padding-top: 5px;
   color: black;
   transition: ease-in-out 0.3s;
+  cursor: pointer;
 }
 
 .btndark {
