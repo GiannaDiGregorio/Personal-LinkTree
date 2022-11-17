@@ -1,10 +1,10 @@
 :root {
-  --background: #e8c7a7;
-  --maincolor: #d16d02;
-  --titlecolor: #522b01;
-  --darkbackground: #371d00;
-  --darkmaincolor: #d16d02;
-  --darktitlecolor: #e8c7a7;
+  --background: #b4e9f8;
+  --maincolor: #6262bc;
+  --titlecolor: #020030;
+  --darkbackground: #020030;
+  --darkmaincolor: #6262bc;
+  --darktitlecolor: #b4e9f8;
 }
 
 * {
@@ -74,9 +74,8 @@ a {
 .profilepic {
   object-fit: cover;
   border-radius: 100%;
-  width: 100px;
-  height: 100px;
-  border: black 1px solid;
+  width: 105px;
+  height: 105px;
 }
 
 h1 {

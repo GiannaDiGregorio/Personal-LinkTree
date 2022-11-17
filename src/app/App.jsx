@@ -1,7 +1,7 @@
 // Import light theme colors
 // Import dark theme colors
 import Box from "../components/Box";
-import profilepic from "../images/profile.jpg";
+import profilepic from "../images/profilePic2.jpg";
 import data from "../data/data";
 import { useState } from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
