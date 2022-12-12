@@ -16,8 +16,8 @@ const data = [
     link: "https://vsco.co/gianna-digregorio",
   },
   {
-    title: "Saxbys App",
-    link: "https://www.thelevelup.com/c/TW-JGUQ1VAFN5",
+    title: "Ambassador Application",
+    link: "https://www.saxbyscoffee.com/saxbysambassador/",
   },
 ];
 
