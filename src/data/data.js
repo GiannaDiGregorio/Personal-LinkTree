@@ -1,5 +1,9 @@
 const data = [
   {
+    title: "Online Portfilio",
+    link: "https://www.giannashotthis.com",
+  },
+  {
     title: "Instagram",
     link: "https://www.instagram.com/gianna.digregorio",
   },
@@ -14,10 +18,6 @@ const data = [
   {
     title: "VSCO",
     link: "https://vsco.co/gianna-digregorio",
-  },
-  {
-    title: "Ambassador Application",
-    link: "https://www.saxbyscoffee.com/saxbysambassador/",
   },
 ];
 
