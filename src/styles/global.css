@@ -1,10 +1,10 @@
 :root {
-  --background: #b4e9f8;
-  --maincolor: #6262bc;
-  --titlecolor: #020030;
-  --darkbackground: #020030;
-  --darkmaincolor: #6262bc;
-  --darktitlecolor: #b4e9f8;
+  --background: #f5f5f4;
+  --maincolor: #ff9dc3;
+  --titlecolor: #1f1f1f;
+  --darkbackground: #1f1f1f;
+  --darkmaincolor: #ffdbe9;
+  --darktitlecolor: #f5f5f4;
 }
 
 * {
@@ -124,5 +124,5 @@ p {
 
 .boxdivdark:hover {
   background-color: var(--darkmaincolor);
-  color: var(--darktitlecolor);
+  color: var(--darkbackground);
 }
