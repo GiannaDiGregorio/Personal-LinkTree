@@ -1,6 +1,6 @@
 const data = [
   {
-    title: "Online Portfilio",
+    title: "My Online Portfilio",
     link: "https://www.giannashotthis.com",
   },
   {
